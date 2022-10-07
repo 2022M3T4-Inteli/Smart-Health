@@ -32,19 +32,23 @@ Portanto, a ferramenta que será disponibilizada para suprir esse problema de de
 ```
 -Raiz
 |
-|--> pasta 1 —> contém todos os algoritmos de tratamento de dados
-    |--> FillEmptyAlgorithms.ipynb
-    |--> FillEmptyAlgorithmsWithDecisionModel.ipynb
-    |--> ClassifierAlgorithm.ipynb
-    |--> seleção_features.ipynb
-|-->imagens —> Nesta pasta temos as imagens do projeto, portanto todas as capturas de tela da nossa aplicação web, desde quando se inicia o login, até o relatório final estão nessa pasta.
-|-->src —> Contém todo o código fonte do sistema. Existem duas pastas, Backend (código do servidor) e Frontend (código da página web.mj).
-|--> pasta 2 -> contém todos os modelos preditivos: Árvore de Decisão, Random Forest, Regressão Logítica, KNN e Naive Bayes.
-    |--> DecisionTree.ipynb
-    |--> randomForest.ipynb
-    |--> regressao_logistica.ipynb
-    |--> KNN.ipynb
-    |--> naive_bayes.ipynb
+| --> Documentação -> Contém toda a documentação do projeto
+    |--> Versões antigas -> Contém versões anteriores
+        | --> Documentação_Projeto_Módulo 3_Grupo 2_v1.docx.pdf
+        | --> Documentação_Projeto_Módulo 3_Grupo 2_v2.docx.docx
+    | --> Documentação_Projeto_Módulo 3_Grupo 2.docx
+    | --> Documentação_Projeto_Módulo 3_Grupo 2.docx.pdf
+| --> Notebook -> Contém todos os algoritmos
+    |--> Modelo final —> contém todos os algoritmos de tratamento de dados e o modelo baixado
+        |--> data_process.ipynb
+        |--> rf_model.pkl
+        |--> user_forms.ipynb
+    |--> Predições -> contém todos os modelos preditivos: Árvore de Decisão, Random Forest, Regressão Logítica, KNN e Naive Bayes.
+        |--> DecisionTree.ipynb
+        |--> KNN.ipynb
+        |--> naive_bayes.ipynb
+        |--> randomForest.ipynb
+        |--> regressao_logistica.ipynb
 | README.md —> Arquivo que serve como guia e explicação geral sobre seu projeto.
 ```
 
