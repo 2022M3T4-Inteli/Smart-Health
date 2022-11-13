@@ -45,15 +45,12 @@ Portanto, a ferramenta que será disponibilizada para suprir esse problema de de
 
 - <b>notebooks</b>: todos os Jupyter Notebooks criados na plataforma Colab para desenvolvimento do projeto.
 
-## 💻 Configuração para desenvolvimento
+## 💻 Execução dos projetos
 
-Aqui encontram-se todas as instruções necessárias para a instalação de todos os programas, bibliotecas e ferramentas imprescindíveis para a configuração do ambiente de desenvolvimento.
-1. Acessar o Google Colaboratory (colab) no browser: https://colab.research.google.com/drive/12c2rKzggvMjSS6rWPEYVdb3VY07AwSqj#scrollTo=EI9Y3xQjGQEr.
-2. Dirija-se a seção "Formulário para o usuário realizar a predição".
-3. Após isso, deve-se preencher o formulário com os dados da paciente.
-4. Os dados do formulário serão armazenados, então basta executar todo o colab para obter-se o resultado de seu tempo de sobrevida.
-5. Para executar todo o colab, basta clicar em ambiente de execução > executar tudo ou Ctrl+F9.
-6. Após esse procedimento, o resultado do tempo de sobrevida será apresentado ao final da execução, podendo ser classificado como baixo, médio ou alto.
+Todos os notebooks do projeto tem o resultado de execução das células visíveis no próprio repositório Github.
+
+Para replicação (reexecução dos códigos), o botão `Open in Colab` disponível na página do arquivo neste repositório do Github.
+> Note que sem salvar uma cópia do notebook no seu Google Drive, não é possível salvar as alterações realizadas no arquivo.
 
 ## 🗃 Histórico de lançamentos
 
