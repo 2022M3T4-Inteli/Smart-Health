@@ -29,28 +29,21 @@ Sendo assim, com o nosso modelo de predição, será possível relatórios e pro
 Portanto, a ferramenta que será disponibilizada para suprir esse problema de demora no tempo dos prognósticos, essa ferramenta veio para dar como retorno às pacientes, um prognóstico. O software do modelo preditivo, funciona através de um formulário, que possui algumas features, as mais importantes que foram seleiconados, e a partir dessas features, as pacientes preenchem de acordo com os dados delas, os quais são armazenados no formulário que tem como objetivo predizer o resultado do tempo de sobrevida da paciente. 
 
 ## 📁 Estrutura de pastas
-```
--Raiz
-|
-| --> Documentação -> Contém toda a documentação do projeto
-    |--> Versões antigas -> Contém versões anteriores
-        | --> Documentação_Projeto_Módulo 3_Grupo 2_v1.docx.pdf
-        | --> Documentação_Projeto_Módulo 3_Grupo 2_v2.docx.docx
-    | --> Documentação_Projeto_Módulo 3_Grupo 2.docx
-    | --> Documentação_Projeto_Módulo 3_Grupo 2.docx.pdf
-| --> Notebook -> Contém todos os algoritmos
-    |--> Modelo final —> contém todos os algoritmos de tratamento de dados e o modelo baixado
-        |--> data_process.ipynb
-        |--> rf_model.pkl
-        |--> user_forms.ipynb
-    |--> Predições -> contém todos os modelos preditivos: Árvore de Decisão, Random Forest, Regressão Logítica, KNN e Naive Bayes.
-        |--> DecisionTree.ipynb
-        |--> KNN.ipynb
-        |--> naive_bayes.ipynb
-        |--> randomForest.ipynb
-        |--> regressao_logistica.ipynb
-| README.md —> Arquivo que serve como guia e explicação geral sobre seu projeto.
-```
+
+|--> documentos<br>
+|-->Outros
+    &emsp;| T4_G2_V01_Predictive_Model_Document.docx<br>
+    &emsp;| T4_G2_V01_Predictive_Model_Document.pdf<br>
+    
+|--> notebooks<br>
+| readme.md<br>
+| license.txt
+
+- <b>readme.md</b>: arquivo que serve como guia e explicação geral sobre o projeto (o mesmo que você está lendo agora).
+
+- <b>documentos</b>: aqui estarão todos os documentos do projeto. Há também uma pasta denominada <b>outros</b> onde estão presentes aqueles documentos complementares.
+
+- <b>notebooks</b>: todos os Jupyter Notebooks criados na plataforma Colab para desenvolvimento do projeto.
 
 ## 💻 Configuração para desenvolvimento
 
@@ -81,7 +74,7 @@ Aqui encontram-se todas as instruções necessárias para a instalação de todo
 
 ## 📋 Licença/License
 
-<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"><p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><a property="dct:title" rel="cc:attributionURL" href="https://github.com/Spidus/Teste_Final_1">WEB POWER</a> by <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://www.yggbrasil.com.br/vr">Inteli, André Luís, Camila Anacleto, João Gonzalaes, Larissa Carvalho, Luiz Granville, Ueliton Rocha</a> is licensed under <a href="http://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">Attribution 4.0 International</a>.</p>
+<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"><p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><a property="dct:title" rel="cc:attributionURL" href="https://github.com/2022M3T4-Inteli/Smart-Health">Smart-Health</a> <a>by</a> <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://github.com/InteliProjects/.github/blob/main/profile/README.md">Inteli, <a href="https://www.linkedin.com/in/andrelessajr/">André Luís Lessa Junior</a>, <a href="https://www.linkedin.com/in/camilaanacleto/">Camila Fernanda de Lima Anacleto</a>, <a href="https://www.linkedin.com/in/jo%C3%A3o-lucas-delistoianov-gonzalez-b0501922a/">João Gonzales</a>, <a href="https://www.linkedin.com/in/carvalholari/">Larissa Gouveia de Carvalho</a>, <a href="https://www.linkedin.com/in/luiz-granville-898780209/">Luiz Francisco Granville</a>, <a href="https://www.linkedin.com/in/uelitonrocha">Ueliton Moreira Rocha</a> is licensed under <a href="http://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">Attribution 4.0 International</a>.</p>
 
 ## 🎓 Referências
 
