@@ -31,13 +31,12 @@ Portanto, a ferramenta que será disponibilizada para suprir esse problema de de
 ## 📁 Estrutura de pastas
 
 |--> documentos<br>
-|-->Outros
-    &emsp;| T4_G2_V01_Predictive_Model_Document.docx<br>
-    &emsp;| T4_G2_V01_Predictive_Model_Document.pdf<br>
-    
+|-->Outros<br>
+&emsp;| T4_G2_V01_Predictive_Model_Document.docx<br>
+&emsp;| T4_G2_V01_Predictive_Model_Document.pdf<br>
 |--> notebooks<br>
 | readme.md<br>
-| license.txt
+| license.txt<br>
 
 - <b>readme.md</b>: arquivo que serve como guia e explicação geral sobre o projeto (o mesmo que você está lendo agora).
 
